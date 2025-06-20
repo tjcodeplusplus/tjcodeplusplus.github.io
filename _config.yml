@@ -1,3 +1,6 @@
 title: TJ Code++
 description: A club dedicated to learning computer science beyond the TJHSST curriculum.
-theme: jekyll-theme-minimal
+show_downloads: false
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme

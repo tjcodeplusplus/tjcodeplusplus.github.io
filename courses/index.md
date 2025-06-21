@@ -27,7 +27,7 @@ Mathematical background needed for computer science.
 
 Advanced Courses (99)
 
-- 99100 - Complexity Classes Seminar (prerequisites: 104)
+- 99100 - P vs. NP Seminar (prerequisites: 104)
 - 99101 - Advanced Mathematical Logic, including Type Theory (prerequisites: 100 and course in proofs)
 - 99102 - Category Theory (prerequisites: 99101 and 103)
 

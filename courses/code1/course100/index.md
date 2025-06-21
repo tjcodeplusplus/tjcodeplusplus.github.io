@@ -18,7 +18,7 @@ Topics to know:
 
 There are 5 modules.
 
-1. [Module 1 - Logic and Proofs](/module1)
+1. [Module 1 - Logic and Proofs](/courses/code1/course100/module1)
 2. Module 2 - Asymptotic Analysis
 3. Module 3 - Counting and Probability
 4. Module 4 - Graphs

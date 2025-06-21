@@ -19,7 +19,7 @@ Explore the basics of computer science. Almost all other courses require the kno
 
 Mathematical background needed for computer science.
 
-- 100 - Discrete Mathematics (prerequisites: 001 or equivalent)
+- [100 - Discrete Mathematics](/code1/course100) (prerequisites: 001 or equivalent)
 - 101 - Algorithms and Data Structures (prerequisites: 100 or equivalent)
 - 102 - Linear Algebra Basics (prerequisites: Calculus 2)
 - 103 - Advanced Linear Algebra (prerequisites: 102 or equivalent)

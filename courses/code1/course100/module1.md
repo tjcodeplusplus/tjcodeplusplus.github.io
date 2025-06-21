@@ -38,4 +38,10 @@ Suppose we want to prove some statement $$p$$. What if we assume $$p$$ is false,
 
 _Proof._ Suppose for the sake of contradiction that $$r$$ is the smallest positive rational number. Consider $$\frac{r}{2}$$. We know this is a rational number because if $$r = \frac{p}{q}$$ then $$\frac{r}{2} = \frac{p}{2q}$$ where $$p, q$$ are nonzero integers ($$q$$ cannot be 0 for obvious reasons and $$p$$ cannot be 0 because then $$r$$ wouldn't be positive). Importantly, $$\frac{r}{2} < r$$ which contradicts the statement "r is the smallest positive rational number". Therefore there is no smallest positive rational number. $$\Box$$
 
+Play close attention to the proof I just described. I assumed the theorem was false, and then reached a state where something was both true and false (a contradiction!). You should use the direct proof methods after you assume something for a contradiction. 
+
+**Exercise 1.2.** Prove that $$\sqrt{2}$$ is irrational.
+
+This exercise is not easy, but you should complete it before moving forward.
+
 [^1]: Note that the natural numbers ($$\mathbb{N}$$) is $$\{ 0,1,2,\dots \}$$ in our case. Some people will omit $$0$$ but it is useful for us.

@@ -14,11 +14,11 @@ Topics to know:
 - Data Structures (lists/arrays, stacks, queues, binary trees)
 - Precalculus (limits, evaluating functions)
 
-## Course Outline
+## Course Materials
 
 There are 5 modules.
 
-1. Module 1 - Logic and Proofs
+1. [Module 1 - Logic and Proofs](/module1)
 2. Module 2 - Asymptotic Analysis
 3. Module 3 - Counting and Probability
 4. Module 4 - Graphs

@@ -30,9 +30,11 @@ Find what it means to be odd.
 
 </details>
 
+
+
 ### Proof by Contradiction
 
-Suppose we want to prove some statement $$p$$. What if we assume $$p$$ is false, and then show that is absurd? This is the technique known as _proof by contradiction_. It is one of the most useful proof techniques, but it is also a bit controversial for reasons we will not get into. Let us do an example.
+Suppose we want to prove some statement $$p$$. What if we assume $$p$$ is false, and then show that is absurd? This is the technique known as _proof by contradiction_. It is one of the most useful proof techniques, but it is also a bit controversial for reasons we will not get into[^2]. Let us do an example.
 
 **Theorem.** _There is no smallest positive rational number._
 
@@ -44,4 +46,18 @@ Play close attention to the proof I just described. I assumed the theorem was fa
 
 This exercise is not easy, but you should complete it before moving forward.
 
+### Proof by Induction
+
+Let's say that there some assortment of dominos laid out. You know two things about the dominos: 
+
+1. If a domino gets knocked down, then it will knock down the next domino.
+2. The first domino gets knocked down.
+
+From this, you can conclude that all dominos get knocked down. This is the idea behind proof by induction. Suppose we know that some property is true for $$n=1$$, and we know that if it is true for $$n=k$$, then it is true for $$n=k+1$$. From this, we can conclude it is true for all natural numbers $$n \geq 1$$. 
+
+**Theorem.** _$$1+2+3+\dots+n=\frac{n(n+1)}{2}$$_
+
+_Proof._ We can easily verify this to be true for $$n=1$$. Compute $$\frac{1(1+1)}{2}=1$$. Now, assume this is true for $$n=k$$. In other words, $$1+2+3+\dots+k=\frac{k(k+1)}{2}$$. Now, add $$(k+1)$$ to both sides. By the induction hypothesis, $$1+2+3+\dots+k+(k+1)$$ should equal $$\frac{(k+1)((k+1)+1)}{2}$$. But we also know it should equal $$\frac{k(k+1)}{2}+(k+1)$$. So we need to prove $$\frac{k(k+1)}{2}+(k+1)=\frac{(k+1)((k+1)+1)}{2}$$. Rearranging, we can see $$\frac{k(k+1)}{2}+(k+1)=\frac{k(k+1)}{2}+\frac{(2k+2)}{2}=\frac{k^{2}+k+2k+2}{2}=\frac{k^{2}+3k+2}{2}=\frac{(k+1)(k+2)}{2}$$ as desired. $$\Box$$
+
 [^1]: Note that the natural numbers ($$\mathbb{N}$$) is $$\{ 0,1,2,\dots \}$$ in our case. Some people will omit $$0$$ but it is useful for us.
+[^2]: You will probably find out why if you pursue theoretical computer science. 

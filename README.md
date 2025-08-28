@@ -10,4 +10,4 @@ It is currently under construction. This website will contain all of our lecture
 
 [Past and Present Officers](/officers)
 
-[Contribution](/contribution.md)
+[Contribution](/contribution)

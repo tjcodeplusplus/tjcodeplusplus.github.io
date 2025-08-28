@@ -4,7 +4,7 @@ This is the official website for TJ's Code++ Club, a club dedicated to learning 
 
 ## Site Navigation
 
-[Courses](/courses)
+[Materials](/materials)
 
 [Past and Present Officers](/officers)
 
